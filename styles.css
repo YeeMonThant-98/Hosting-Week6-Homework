@@ -1,0 +1,115 @@
+body {
+    background: radial-gradient(circle at 18.7% 37.8%, rgb(250, 250, 250) 0%, rgb(225, 234, 238) 90%);
+}
+
+.container {   
+    text-align: center;
+    margin-top: 20px;
+    width: 600px !important;
+    padding: 20px 30px ;
+    background: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.box1 {
+    padding: 10px 20px;
+}
+
+.heading{
+    text-align: left;
+    font-weight: bold;
+    align-self: center;
+    font-size: 20px;
+
+}
+
+form {
+    text-align: right;
+}
+
+.box2 {
+    display: block;
+    margin: 0 20px;
+    border: solid 1px black;
+    
+}
+
+.section1 {
+    padding: 20px 30px 0 30px ;
+}
+
+.section2 {
+    padding: 0 0 20px 20px;
+}
+
+
+
+#cityName {
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+
+.DateandTime{
+    text-align: right;
+}
+
+.weather {
+    width: 80px;
+    text-align: left;
+}
+
+.col-2 {
+    text-align: left;
+    vertical-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    align-self: center;
+}
+
+#degree{
+    color: black;
+    text-decoration: none;
+}
+
+.wind {
+    text-align: left;
+    text-indent: left;
+    font-size: 12px;
+    align-self: center;
+}
+
+.box3 {
+    display: block;
+    margin: 0 20px;
+    padding: 20px;
+    border: solid 1px black;
+    margin-top: 15px;
+}
+
+.images {
+    padding: 10px 0;
+}
+
+.box4 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    transition: all 200ms ease-in-out;
+   
+} 
+
+button:hover{
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+
+
+
+
+

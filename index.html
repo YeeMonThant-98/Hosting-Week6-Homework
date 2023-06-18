@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+        integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row box1 justify-content-between">
+            <div class="col heading">
+                Weather Forecast
+            </div>
+
+            <div class="col">
+                <form id="enter-city">
+                    <input type="text" id="input-city" placeholder="Enter a city" />
+                    <input type="submit" value="Search" />
+                </form>
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="row  section1 justify-content-between">
+                <div class="col" id="cityName"> Mandalay </div>              
+                <div class="col DateandTime">
+                    <div id="date"> </div>
+                    <div id="time"> </div>
+                </div> 
+            </div>
+
+            <div class="row  section2 justify-content-start">
+                <div class="col-3">
+                    <img src="cloud.png" alt="Weather Condition" class="weather">
+                </div>
+        
+                <div class="col-2">
+                    <a href="#" id="degree"> 28°C </a>             
+                </div>
+
+                <div class="col-3 wind">
+                    Precipitation: 10% 
+                    Wind: 3km/h 
+                </div>
+            </div>
+        </div> 
+
+        <div class="box3">
+            <div class="row align-items-center">
+                <div class="col">
+                    Mon
+                </div>
+                <div class="col">
+                    Tue
+                </div>
+                <div class="col">
+                    Wed
+                </div>
+                <div class="col">
+                    Thur
+                </div>
+                <div class="col">
+                    Fri
+                </div>
+            </div>
+
+            <div class="row align-items-center images">
+                <div class="col">
+                    <img src="cloud1.png" alt="Weather Condition" width="60" />
+                </div>
+                <div class="col">
+                    <img src="cloud1.png" alt="Weather Condition" width="60" />
+                </div>
+                <div class="col">
+                    <img src="cloud1.png" alt="Weather Condition" width="60" />
+                </div>
+                <div class="col">
+                    <img src="cloud1.png" alt="Weather Condition" width="60" />
+                </div>
+                <div class="col">
+                    <img src="cloud1.png" alt="Weather Condition" width="60" />
+                </div>
+            </div>
+
+            <div class="row align-items-center degrees">
+                <div class="col">
+                    29°
+                </div>
+                <div class="col">
+                    27°
+                </div>
+                <div class="col">
+                    28°
+                </div>
+                <div class="col">
+                    29°
+                </div>
+                <div class="col">
+                    30°
+                </div>
+            </div>
+        </div>
+
+        <div class="box4">
+            <div class="row justify-content-center">
+                <div class="col">
+                    <button id="current-city"> Current </button>
+                </div>
+                <div class="col">
+                    <button > Mandalay </button>
+                </div>
+                <div class="col">
+                    <button> TaungGyi </button>
+                </div>
+                <div class="col">
+                    <button> Yangon </button>                   
+                </div>
+            </div>
+        </div>
+    
+
+        
+
+        
+
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+</html>
